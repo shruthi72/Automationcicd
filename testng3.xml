@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- Giving Package name for running all test cases present in that-->
+  <parameter name="URL" value="Passing Varaiable and printing "/>
+  <listeners>
+  <listener class-name="Test.Listeners"/>
+  </listeners>
+  <test name="Regression">
+  
+  <groups>
+  <run>
+  <include name="ABC"/>
+  </run>
+  </groups>
+  
+  <classes>
+  <class name="Test.GroupsUsage"/>
+  <class name="Test.prioritizeTestcase"/>
+  <class name="Test.Basics"/>
+  </classes>
+   
+  </test>
+</suite> <!-- Suite -->

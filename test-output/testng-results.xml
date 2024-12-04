@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="13" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T19:33:39 IST" name="Suite" finished-at="2024-11-10T19:33:39 IST" duration-ms="89">
+    <groups>
+      <group name="ABC">
+        <method signature="Basics.regressiontc()[pri:0, instance:Test.Basics@22ef9844]" name="regressiontc" class="Test.Basics"/>
+        <method signature="GroupsUsage.regressiontc()[pri:0, instance:Test.GroupsUsage@5403f35f]" name="regressiontc" class="Test.GroupsUsage"/>
+        <method signature="prioritizeTestcase.regressiontc()[pri:0, instance:Test.prioritizeTestcase@47987356]" name="regressiontc" class="Test.prioritizeTestcase"/>
+      </group> <!-- ABC -->
+    </groups>
+    <test started-at="2024-11-10T19:33:39 IST" name="Regression" finished-at="2024-11-10T19:33:39 IST" duration-ms="89">
+      <class name="Test.Basics">
+        <test-method signature="regressiontc()[pri:0, instance:Test.Basics@22ef9844]" started-at="2024-11-10T19:33:39 IST" name="regressiontc" finished-at="2024-11-10T19:33:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressiontc -->
+      </class> <!-- Test.Basics -->
+      <class name="Test.prioritizeTestcase">
+        <test-method signature="regressiontc()[pri:0, instance:Test.prioritizeTestcase@47987356]" started-at="2024-11-10T19:33:39 IST" name="regressiontc" finished-at="2024-11-10T19:33:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressiontc -->
+      </class> <!-- Test.prioritizeTestcase -->
+      <class name="Test.GroupsUsage">
+        <test-method signature="regressiontc()[pri:0, instance:Test.GroupsUsage@5403f35f]" started-at="2024-11-10T19:33:39 IST" name="regressiontc" finished-at="2024-11-10T19:33:39 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regressiontc -->
+      </class> <!-- Test.GroupsUsage -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
